@@ -1,0 +1,85 @@
+
+body {
+    background-color: powderblue;
+  }
+
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  hr{
+    height: 2px;
+    border-width: 0;
+    color: darkblue;
+    background-color: darkblue;
+  }
+  ul {
+    display: flex;
+    justify-content: center; /* Yatay merkezleme */
+    align-items: center;    /* Dikey hizalama */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 103, 131);
+}
+
+li {
+    margin: 0 10px; /* Menü öğeleri arasına boşluk */
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+li a:hover {
+    background-color: #004d66; /* Hover rengi */
+}
+
+  
+
+  #content-list {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#content-list h2 {
+    text-align: center;
+    color: #007acc;
+}
+
+.content-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-item h3 a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.content-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.content-item p {
+    color: #555;
+}
+
+img {
+  width: 400px; /* Genişlik */
+  height: auto; /* Oranı korumak için otomatik yükseklik */
+  display: block;
+  margin: 20px auto; /* Ortalar */
+}
